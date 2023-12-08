@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Sistema de Chamados - React js
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/jonatasdamata/sistema-chamados-react/new/master) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+https://jonatas-sistemadechamados.netlify.app/
 
-In the project directory, you can run:
+Bem-vindo ao sistema de chamados, uma aplicação para gerenciamento de chamados de suporte técnico. Este projeto utiliza React para o frontend e Firebase para o backend, incluindo funcionalidades de registro, edição e listagem de chamados.
 
-### `npm start`
+# Funcionalidades Principais
+## Chamados:
+-Listagem: Visualização de todos os chamados registrados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Novo Chamado: Registro de novos chamados, associados a clientes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Edição: Possibilidade de editar os detalhes de um chamado existente.
 
-### `npm test`
+## Clientes:
+-Registro: Cadastro de novos clientes associados aos chamados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Perfil:
+-Configurações: Possibilidade de atualizar informações do perfil, incluindo foto de avatar.
 
-### `npm run build`
+## Página de Login
+![login](https://github.com/jonatasdamata/sistema-chamados-react/assets/144968541/2768b280-e7b5-49fe-bdff-505888851b5a)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Cadastrar Novo Usuário 
+![criar-user](https://github.com/jonatasdamata/sistema-chamados-react/assets/144968541/16081821-3b93-4144-bed6-470269a5e1d6)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Página Dashboard
+![dashboard](https://github.com/jonatasdamata/sistema-chamados-react/assets/144968541/592c5012-52f8-4fbb-a8c7-c71ea425d7ca)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Página Detalhes do Chamado
+![detalhe-chamado](https://github.com/jonatasdamata/sistema-chamados-react/assets/144968541/80654b4f-811a-45ff-b5a8-0bc4778f2709)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Página Editar Chamado
+![editar-chamado](https://github.com/jonatasdamata/sistema-chamados-react/assets/144968541/89fef403-b443-4c48-ba73-43ff2a726563)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Página Registrar Novo Cliente
+![registrar-cliente](https://github.com/jonatasdamata/sistema-chamados-react/assets/144968541/39466d66-bb61-4149-a98f-027c488f0a25)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Página Perfil (Editar)
+![perfil](https://github.com/jonatasdamata/sistema-chamados-react/assets/144968541/ef418cf5-f2fe-4330-bf2a-281f95c9bc1c)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Tecnologias utilizadas
 
-### Making a Progressive Web App
+- ReactJS
+- Firebase (Autenticação e Firestore para banco de dados)
+- Javascript
+- CSS
+- HTML
+  
+  
+## Implantação em produção
+- Front End Web: Netlify
+- Banco de dados: Firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+# Competências
+-Firebase (Firestore e Authentication): Implementação e configuração de um banco de dados Firestore para armazenar e recuperar dados de tarefas e usuários. Utilização do serviço de autenticação do Firebase para autenticar usuários.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-React Router Dom: Implementação de roteamento e paginação na aplicação, garantindo uma navegação fluida entre as diferentes páginas.
 
-### Deployment
+-Hooks (useEffect, useState, useParams e useNavigate): Utilização eficaz dos hooks proporcionados pelo React, como useEffect para execução de efeitos colaterais, useState para gerenciamento de estados, useParams para acessar parâmetros da URL, e useNavigate para navegação programática.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-Controle de Acesso: Implementação de controle de acesso às páginas, permitindo que apenas usuários autenticados acessem a página de administração.
 
-### `npm run build` fails to minify
+-Netlify: Implantação bem-sucedida do frontend web no Netlify, garantindo disponibilidade e acesso à aplicação online.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Banco de Dados em Tempo Real: Utilização do Firestore para garantir a atualização em tempo real das tarefas na aplicação, proporcionando uma experiência colaborativa.
+
+-Estilização Responsiva: Adaptação da interface para diferentes dispositivos, garantindo uma experiência de usuário consistente em telas de diversos tamanhos.
+
+-Firebase Storage: Utilização do Firebase Storage para o upload e recuperação de imagens de avatar dos usuários.
+
+-Controle de Estado: Utilização eficaz do estado local para controlar o fluxo da aplicação, atualizando a interface conforme as ações do usuário.
+
+-React Toastify: Implementação de notificações visuais para feedback ao usuário, melhorando a experiência de uso da aplicação.
+
+
+# Como executar o projeto
+
+
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/jonatasdamata/sistema-chamados-react
+
+# entrar na pasta do projeto 
+cd sistema-chamados-react
+
+# instalar dependências
+npm install ou yarn install
+
+# executar o projeto
+npm start ou yarn start
+```
+
+# Autor
+
+Jonatas da Mata
+
+https://www.linkedin.com/in/jonatas-da-mata-16a752287/
+
